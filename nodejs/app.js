@@ -21,3 +21,11 @@ let str = JSON.stringify(cpu);
 console.log(mg.an);
 mg.saludo();
 mg.nuevo();
+let rest = mg.suma(45,13);
+console.log(rest);
+rest = mg.new(15);
+console.log(rest);
+
+setTimeout(() =>{
+    console.log("fin");
+}, 2000)
