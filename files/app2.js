@@ -15,7 +15,7 @@ fs.readFile("dta.txt", "utf-8", (error, data) => {
 try {
     data = fs.readFileSync("daa.txt", "utf-8");
 } catch (e) {
-    console.log(`Hay un error:\n${e}`);
+    console.error(`Hay un error:\n${e}`);
 }
 
 console.log("hola");
