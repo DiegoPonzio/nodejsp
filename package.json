@@ -1,0 +1,22 @@
+{
+  "name": "nodejsp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoPonzio/nodejsp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoPonzio/nodejsp/issues"
+  },
+  "homepage": "https://github.com/DiegoPonzio/nodejsp#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
