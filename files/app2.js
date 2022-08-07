@@ -2,6 +2,7 @@
 const { Console } = require("console");
 const fs = require("fs");
 let data = "";
+let list = [];
 
 // manera ancincrona con error
 fs.readFile("dta.txt", "utf-8", (error, data) => {
@@ -25,3 +26,16 @@ if (data != "") {
 
 //clonar un archivo
 //fs.createReadStream("new_data.txt").pipe(fs.createWriteStream("data.txt"));
+
+
+fs.readdir("../files", (error, file) => {
+    if(error){
+        console.log(error);
+    } else {
+        list = file;
+        file.forEach(file => {
+            console.log(file);
+        });
+    }
+    console.log(list);
+});
