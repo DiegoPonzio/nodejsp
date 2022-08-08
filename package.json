@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/DiegoPonzio/nodejsp#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "yargs": "^17.5.1"
   }
 }
