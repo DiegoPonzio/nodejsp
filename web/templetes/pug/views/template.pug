@@ -1,0 +1,37 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Formulario
+  script(src='js/validacion.js')
+p
+  | Todos los formualrios de la web ocupan metodos para poder enviar o recivir la informaci&oacute;n,
+  | los mas comunes son:
+h1 GET: 
+|  este metodo se encarga de enviar la informaci&oacute;n por 
+|         la URL o salida estandar del navegador, esto proporciona por la seguridad de la informaci&oacute;n no exista ya que es visible.
+h1 POST: 
+|  este metodo se encarga de  enviar 
+|         por la URL de forma oculta, lo que nos ofrce cierto nivel de seguridad en el manejo de datos. 
+p
+br
+form(method='post' name='formulario' action='')
+  label Nombre:
+  br
+  input#nombre(type='text' name='nombre')
+  br
+  label Edad:
+  br
+  input#edad(type='text' name='edad')
+  br
+  label Email:
+  br
+  input#email(type='email' name='email')
+  br
+  input(type='reset' name='enviar' value='Enviar Datos')
+  br
+  input(type='reset' name='borrar' value='Borrar Datos')
+br
+br
+
